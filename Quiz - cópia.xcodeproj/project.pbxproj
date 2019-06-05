@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01B09202229F0D37006CDBF5 /* DesignableCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B09201229F0D37006CDBF5 /* DesignableCorners.swift */; };
-		01B0920422A05BC9006CDBF5 /* QuizzesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0920322A05BC9006CDBF5 /* QuizzesTableViewController.swift */; };
-		01B0920622A05C85006CDBF5 /* QuizzTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0920522A05C85006CDBF5 /* QuizzTableViewCell.swift */; };
 		01E3F385228494DC00656C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3F384228494DC00656C50 /* AppDelegate.swift */; };
 		01E3F38A228494DC00656C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E3F388228494DC00656C50 /* Main.storyboard */; };
 		01E3F38C228494DE00656C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E3F38B228494DE00656C50 /* Assets.xcassets */; };
@@ -23,8 +21,6 @@
 
 /* Begin PBXFileReference section */
 		01B09201229F0D37006CDBF5 /* DesignableCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableCorners.swift; path = ../../DesignableCorners.swift; sourceTree = "<group>"; };
-		01B0920322A05BC9006CDBF5 /* QuizzesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzesTableViewController.swift; sourceTree = "<group>"; };
-		01B0920522A05C85006CDBF5 /* QuizzTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzTableViewCell.swift; sourceTree = "<group>"; };
 		01E3F381228494DC00656C50 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E3F384228494DC00656C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E3F389228494DC00656C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,8 +67,6 @@
 				01B09201229F0D37006CDBF5 /* DesignableCorners.swift */,
 				01E3F384228494DC00656C50 /* AppDelegate.swift */,
 				01E3F388228494DC00656C50 /* Main.storyboard */,
-				01B0920522A05C85006CDBF5 /* QuizzTableViewCell.swift */,
-				01B0920322A05BC9006CDBF5 /* QuizzesTableViewController.swift */,
 				01E3F38B228494DE00656C50 /* Assets.xcassets */,
 				01E3F38D228494DE00656C50 /* LaunchScreen.storyboard */,
 				01E3F390228494DE00656C50 /* Info.plist */,
@@ -158,12 +152,10 @@
 			files = (
 				01E3F39F2284A4DC00656C50 /* ViewController.swift in Sources */,
 				01E3F385228494DC00656C50 /* AppDelegate.swift in Sources */,
-				01B0920422A05BC9006CDBF5 /* QuizzesTableViewController.swift in Sources */,
 				01B09202229F0D37006CDBF5 /* DesignableCorners.swift in Sources */,
 				01E3F39B22849AA300656C50 /* Perguntas.swift in Sources */,
 				01E3F39D22849C2F00656C50 /* Model.swift in Sources */,
 				01E3F3992284978600656C50 /* ResultadoViewController.swift in Sources */,
-				01B0920622A05C85006CDBF5 /* QuizzTableViewCell.swift in Sources */,
 				01E3F3972284975F00656C50 /* PerguntasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
