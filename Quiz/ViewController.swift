@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // inicio teste firebase
+        
+//
+//        var ref: DatabaseReference!
+//        ref = Database.database().reference()
 
         // Do any additional setup after loading the view.
     }

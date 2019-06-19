@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>974496296178-684e9574chea4l8s6ssjrh0qu6d2loc8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.974496296178-684e9574chea4l8s6ssjrh0qu6d2loc8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBeB6I88ECmXzCkjg5P_IZWC8cD9IBQ-ds</string>
+	<key>GCM_SENDER_ID</key>
+	<string>974496296178</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rodrigoforbeck.Quiz</string>
+	<key>PROJECT_ID</key>
+	<string>quizmdo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quizmdo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:974496296178:ios:3cf93cdf9c597e25</string>
+	<key>DATABASE_URL</key>
+	<string>https://quizmdo.firebaseio.com</string>
+</dict>
+</plist>

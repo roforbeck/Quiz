@@ -9,16 +9,22 @@
 import UIKit
 
 class ResultadoViewController: UIViewController {
-
+    @IBOutlet weak var nomeField: UITextField!
+    
+    @IBOutlet weak var telefoneField: UITextField!
+    var porcentagem : Int = 5
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if Model.instance.acertos < 2 {
             resultadoImageView.image = UIImage(named: "5") ?? UIImage()
+            porcentagem = 5
         }else if Model.instance.acertos > 4 {
             resultadoImageView.image = UIImage(named: "15") ?? UIImage()
+            porcentagem = 15
         }else{
             resultadoImageView.image = UIImage(named: "10") ?? UIImage()
+            porcentagem = 10
             
         }
 
@@ -27,5 +33,8 @@ class ResultadoViewController: UIViewController {
     
     @IBOutlet weak var resultadoImageView: UIImageView!
     
+    @IBAction func submitButton(_ sender: Any) {
+        DAOFirebase.save(nome: nomeField.text!, telefone: telefoneField.text!, porcentagem: porcentagem)
+    }
     
 }

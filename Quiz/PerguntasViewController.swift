@@ -75,9 +75,9 @@ class PerguntasViewController: UIViewController {
         alternativaUm.setTitle(pergunta.alternativas[0], for: .normal)
         alternativaDois.setTitle(pergunta.alternativas[1], for: .normal)
         alternativaTres.setTitle(pergunta.alternativas[2], for: .normal)
-        alternativaUm.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
-        alternativaDois.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
-        alternativaTres.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
+        alternativaUm.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        alternativaDois.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        alternativaTres.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         imagemPergunta.image = pergunta.imagem
         imagemResposta.image = pergunta.imagemResposta
         imagemResposta.alpha = 0
@@ -125,14 +125,14 @@ class PerguntasViewController: UIViewController {
             self.proximoButton.alpha = 1
             button.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
             if self.selecionada != pergunta.alternativaCerta {
-                redButton.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+                redButton.backgroundColor = #colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)
             }
         }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        backgroundView.layer.cornerRadius = 35
+        
         refresh()
         
         
